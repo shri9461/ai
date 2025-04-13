@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 850px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  h1 {
+    font-size: 2rem;
+    color: #5a67d8;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  h1 i {
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Form Section */
+  form {
+    margin-top: 20px;
+  }
+  
+  .section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #f4f4f9;
+    border-radius: 8px;
+    border-left: 5px solid #5a67d8;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section h2 i {
+    margin-right: 10px;
+    color: #5a67d8;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 5px rgba(90, 103, 216, 0.5);
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #5a67d8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #434190;
+  }
+  
+  /* Resume Preview Section */
+  .hidden {
+    display: none;
+  }
+  
+  #resumePreview {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    text-align: center;
+  }
+  
